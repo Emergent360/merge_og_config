@@ -31,8 +31,8 @@
               - test_1
               - test_2
             tag:
-              - 10
-              - 20
+              - "10"
+              - "20"
     - object_type: user
       object_groups:
         - name: test_og_user
