@@ -1,2 +1,8 @@
 ---
 # defaults file for merge_og_config
+ansible_user: admin
+ansible_become: true
+ansible_become_method: enable
+ansible_become_password: emergent
+ansible_connection: network_cli
+ansible_network_os: asa
